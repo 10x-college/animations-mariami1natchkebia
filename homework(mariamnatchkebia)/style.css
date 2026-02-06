@@ -586,6 +586,13 @@ nav {
     font-size: 18px;
     color: #464646;
     text-decoration: none;
+    transition: 1s; 
+}
+
+.bottom-nav a:hover {
+    color: #ffffff; 
+    transform: scale(1.05);
+    transition: color 0.3s ease, transform 0.3s ease; 
 }
 
 .input-mail {
